@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Loop & Array</h1>
+    <script>
+      let beers = ['stout', 'weizen', 'ipa', 'sour', 'dfs'];
+    </script>
+    <h2>Beers</h2>
+    <ul>
+      <script>
+        let i = 0;
+        while(i < beers.length){
+        document.write('<li><a href="http://a.com/'+beers[i]+'">'+beers[i]+'</a></li>');
+        i = i + 1;
+        }
+      </script>
+    </ul>
+  </body>
+</html>
